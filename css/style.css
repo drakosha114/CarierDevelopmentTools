@@ -1,0 +1,112 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+.pageWrapper {
+    width: 100%;
+    max-width: 1880px;
+    min-width: 1300px;
+    margin: 0 auto;
+}
+.page-header {
+    height: 167px;
+    background: url('../images/header_03.png') top center no-repeat transparent;
+    
+}
+.page-content {
+    padding: 20px 0;
+    width: 1220px;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+.page-footer {
+    height: 101px;
+    background: url('../images/footer_02.png') top center no-repeat transparent;
+}
+.page-content > div {
+    display: table-row;
+}
+
+.page-content .control-panel,
+.page-content .canvas-wrapper {
+    display: table-cell;
+    vertical-align: top;
+}
+.page-content .control-panel {
+   width: 303px;
+   background: #f4f4f4;
+   border-radius: 5px;
+   padding: 25px 20px;
+   box-sizing: border-box;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.page-content .canvas-wrapper {
+    padding: 25px 0;
+    text-align: right;
+}
+.control-panel h2 {
+    font-size: 18px;
+    line-height: 1.2em;
+    color: #5a5a5a;
+}
+.control-panel-block {
+    margin-top: 25px;
+}
+.control-name {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #6a6a6a;
+}
+.control-wrapper {
+    position: relative;
+}
+.opened .select-list {
+    display: block;
+}
+.opened {
+    z-index: 4;
+}
+.select-list {    
+    padding: 20px;
+    border: 1px solid #cdcdcd;
+    background: #fff;
+    max-height: 300px;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    display: none;
+}
+.select-list ul {
+    list-style: none;
+    margin-left: 5px;
+}
+.select-list li + li {
+    margin-top: 5px;
+}
+.select-list li input {
+    margin-right: 5px;
+}
+.select-list h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+.select-list h3:first-child {
+    margin-top: 0px;
+}
+.select-button {
+    border: 1px solid #b5b5b5;
+    padding: 6px 8px;
+}
+.select-button > span {
+    color: #999999;
+}

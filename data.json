@@ -1,0 +1,614 @@
+﻿{
+  "carier": [
+    {
+      "expertise": "Develpoment",
+      "roles": [
+        {
+          "default": true,
+          "levels": [
+            {
+              "name": "Junor Developer",
+              "target": ["Regular Developer"],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Developer",
+              "target": ["Junior Functional Analyst", "Junior Analyst", "Senior Developer",  "Junor UX Designer"],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Developer",
+              "target": ["Junior Functional Analyst","Junior Analyst"],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Developer",
+          "selected": true
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor JAVA Developer",
+              "target": ["Regular JAVA Developer", "Regular Developer"],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular JAVA Developer",
+              "target": ["Senior JAVA Developer", "Junior Functional Analyst", "Junior Analyst", "Senior Developer"],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior JAVA Developer",
+              "target": ["Junior Functional Analyst","Junior Analyst"],
+              "level":  "Senior"
+            }
+          ],
+          "name": "JAVA Developer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor Configuration Manager",
+              "target": ["Regular Developer","Regular Configuration Manager"],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Configuration Manager",
+              "target": ["Senior Configuration Manager","Junior Functional Analyst","Junior Analyst","Junior Database Developer","Junior JAVA Developer","Junior .NET Web Developer","Junior C++ Developer","Junior Android Developer","Junior iOS Developer", "Junior Developer"],
+              "level":  "Regular"
+            },
+            {
+              "level": "Senior",
+              "name": "Senior Configuration Manager",
+              "target": ["Regular System Architect","Regular Architect","Regular Group Lead","Junior Developer","Junior Database Developer","Junior JAVA Developer","Junior .NET Web Developer","Junior C++ Developer","Junior Android Developer","Junior iOS Developer"]
+            }
+          ],
+          "name": "Configuration Manager",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor Deployment Engineer",
+              "target": [ "Regular Deployment Engineer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Deployment Engineer",
+              "target": ["Senior Deployment Engineer", "Junior Functional Analyst", "Junior Analyst"],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Deployment Engineer",
+              "target": [ "Regular System Architect", "Regular Group Lead", "Junior Database Developer", "Junior JAVA Developer", "Junior .NET Web Developer", "Junior C++ Developer", "Junior Android Developer", "Junior iOS Developer", "Junior Developer" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Deployment Engineer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor Database Developer",
+              "target": [ "Regular Database Developer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Database Developer",
+              "target": ["Senior Database Developer","Junior Functional Analyst", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Database Developer",
+              "target": [ "Regular Database Architect", "Regular Group Lead" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Database Developer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor .NET Web Developer",
+              "target": [ "Regular .NET Web Developer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular .NET Web Developer",
+              "target": ["Senior .NET Web Developer","Junior Functional Analyst", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior .NET Web Developer",
+              "target": ["Regular System Architect", "Regular Group Lead" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": ".NET Web Developer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor C++ Developer",
+              "target": [ "Regular C++ Developer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular C++ Developer",
+              "target": [ "Senior C++ Developer","Junior Functional Analyst", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior C++ Developer",
+              "target": ["Regular System Architect", "Regular Group Lead" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "C++ Developer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor Android Developer",
+              "target": [ "Regular Android Developer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Android Developer",
+              "target": [ "Senior Android Developer","Junior Functional Analyst", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Android Developer",
+              "target": ["Regular System Architect", "Regular Group Lead" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Android Developer",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor iOS Developer",
+              "target": [ "Regular iOS Developer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular iOS Developer",
+              "target": [ "Senior iOS Developer","Junior Functional Analyst", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior iOS Developer",
+              "target": ["Regular System Architect", "Regular Group Lead" ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "iOS Developer",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "expertise": "Architect",
+      "roles": [
+        {
+          "default": true,
+          "levels": [
+            {
+              "name": "Junor Architect",
+              "target": [ "Regular Architect" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Architect",
+              "target": [ "Senior Architect"],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Architect",
+              "target": [ ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Architect",
+          "selected": true
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor Database Architect",
+              "target": [ "Regular Database Architect" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Database Architect",
+              "target": [ "Senior Database Architect" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Database Architect",
+              "target": [ ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "Database Architect",
+          "selected": false
+        },
+        {
+          "default": false,
+          "levels": [
+            {
+              "name": "Junor System Architect",
+              "target": [ "Regular System Architect" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular System Architect",
+              "target": [ "Senior System Architect" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior System Architect",
+              "target": [  ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "System Architect",
+          "selected": false
+        }
+      ]
+    },
+    {
+      "expertise": "UX Designer",
+      "roles": [
+        {
+          "default": true,
+          "levels": [
+            {
+              "name": "Junor UX Designer",
+              "target": [ "Regular UX Designer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular UX Designer",
+              "target": [ "Senior UX Designer" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior UX Designer",
+              "target": [ ],
+              "level":  "Senior"
+
+            }
+          ],
+          "name": "UX Designer",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "expertise": "Technical Writer",
+      "roles": [
+        {
+          "default": true,
+          "levels": [
+            {
+
+            },
+            {
+              "name": "Regular Technical Writer",
+              "target": [ "Senior Technical Writer", "Junior Analyst", "Junior Functional Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Technical Writer",
+              "target": [ "Junior Analyst", "Junior Functional Analyst" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Technical Writer",
+          "selected": true
+        }
+      
+      ]
+    },
+    {
+      "expertise": "Analyst",
+      "roles": [
+        {
+          "default": true,
+          "levels": [
+            {
+              "name": "Junior Analyst",
+              "target": [ "Regular Analyst" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Analyst",
+              "target": [ "Senior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Analyst",
+              "target": ["Regular Group Lead" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Analyst",
+          "selected": true
+        },{
+          "default": false,
+          "levels": [
+            {
+              "name": "Junior Functional Analyst",
+              "target": [ "Regular Functional Analyst" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Functional Analyst",
+              "target": [ "Senior Functional Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Functional Analyst",
+              "target": [ "Regular Group Lead" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Functional Analyst",
+          "selected": false
+        },{
+          "default": false,
+          "levels": [
+            {
+              "name": "Junior Business Analyst",
+              "target": [ "Regular Business Analyst" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Business Analyst",
+              "target": [ "Senior Business Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Business Analyst",
+              "target": ["Regular Group Lead"],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Business Analyst",
+          "selected": false
+        }
+      
+      ]
+    },
+    {
+      "expertise": "Testing",
+      "roles": [{
+          "default": true,
+          "levels": [
+            {
+              "name": "Junior Tester",
+              "target": [ "Regular Tester" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Tester",
+              "target": ["Senior Tester", "Senior Tester / QA", "Junior Functional Analyst","Junior Database Developer","Junior JAVA Developer","Junior .NET Web Developer","Junior C++ Developer", "Junior Android Developer", "Junior iOS Developer", "Junior Developer", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Tester",
+              "target": ["Junior Functional Analyst","Junior Analyst","Test Group Lead", "Regular Test Manager" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Tester",
+          "selected": true
+        },{
+          "default": false,
+          "levels": [
+            {
+              "name": "Junior Tester / QA",
+              "target": [ "Regular Tester / QA" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Tester / QA",
+              "target": [ "Senior Tester / QA", "Junior Functional Analyst", "Junior Database Developer", "Junior JAVA Developer", "Junior .NET Web Developer", "Junior C++ Developer", "Junior Android Developer", "Junior iOS Developer", "Junior Developer", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Tester / QA",
+              "target": ["Junior Functional Analyst","Junior Analyst","Test Group Lead", "Regular Test Manager" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Tester / QA",
+          "selected": false
+        },{
+          "default": false,
+          "levels": [
+            {
+              "name": "Junior Test / QA automation Engineer",
+              "target": [ "Regular Test / QA automation Engineer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Test / QA automation Engineer",
+              "target": [ "Senior Tester / QA", "Junior Functional Analyst", "Junior Database Developer", "Junior JAVA Developer", "Junior .NET Web Developer", "Junior C++ Developer", "Junior Android Developer", "Junior iOS Developer", "Junior Developer", "Junior Analyst" ],
+              "level":  "Regular"
+            },
+            {
+              "name": "Senior Test / QA automation Engineer",
+              "target": ["Junior Functional Analyst","Junior Analyst","Test Group Lead", "Regular Test Manager" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Test / QA automation Engineer",
+          "selected": false
+        },{
+          "default": false,
+          "levels": [
+            {
+              "name": "Junior Performance Engineer",
+              "target": [ "Regular Performance Engineer" ],
+              "level":  "Junior"
+            },
+            {
+              "name": "Regular Performance Engineer",
+              "target": [ "Senior Performance Engineer", "Junior Functional Analyst", "Junior Analyst" ],
+               "level":  "Regular"
+            },
+            {
+              "name": "Senior Performance Engineer",
+              "target": ["Junior Functional Analyst", "Junior Analyst","Test Group Lead", "Regular Test Manager" ],
+              "level":  "Senior"
+            }
+          ],
+          "name": "Performance Engineer",
+          "selected": false
+        },{
+          "default": false,
+          "levels": [
+            {
+             
+            },
+            {
+              "name": "Regular Test Manager",
+              "target": ["Junior Project Manager" ],
+               "level":  "Regular"
+            },
+            {
+              
+            }
+          ],
+          "name": "Test Manager",
+          "selected": false
+        },{
+          "default": true,
+          "levels": [
+            {
+             
+            },
+            {
+              "name": "Regular Test Group Lead",
+              "target": ["Junior Project Manager" ],
+               "level":  "Regular"
+            },
+            {
+              
+            }
+          ],
+          "name": "Test Group Lead",
+          "selected": true
+        } ]
+    },
+    {
+      "expertise": "Management",
+      "roles": [ {
+          "default": true,
+          "levels": [
+            {
+             
+            },
+            {
+              "name": "Regular Release Manager",
+              "target": ["Junior Project Manager" ],
+               "level":  "Regular"
+            },
+            {
+              
+            }
+          ],
+          "name": "Release Manager",
+          "selected": true
+        },{
+          "default": false,
+          "levels": [
+            {
+             
+            },
+            {
+              "name": "Regular Group Lead",
+              "target": ["Junior Project Manager" ],
+              "level":  "Regular"
+            },
+            {
+              
+            }
+          ],
+          "name": "Group Lead",
+          "selected": true
+        },{
+          "default": true,
+          "levels": [
+            {
+              "name": "Junior Project Manager",
+              "target": [ "Regular Project Manager" ],
+               "level":  "Junior"
+            },
+            {
+              "name": "Regular Project Manager",
+              "target": [ "Senior Project Manager" ],
+               "level":  "Regular"
+            },
+            {
+              "name": "Senior Project Manager",
+              "target": ["Regular Program Manager" ],
+               "level":  "Senior"
+            }
+          ],
+          "name": "Project Manager",
+          "selected": true
+        },{
+          "default": true,
+          "levels": [
+            {
+              "name": "Junior Program Manager",
+              "target": [ "Regular Program Manager" ],
+               "level":  "Junior"
+            },
+            {
+              "name": "Regular Program Manager",
+              "target": [ "Senior Program Manager" ],
+               "level":  "Regular"
+            },
+            {
+              "name": "Senior Program Manager",
+              "target": [  ],
+               "level":  "Senior"
+            }
+          ],
+          "name": "Program Manager",
+          "selected": true
+        }]
+    }
+
+  ]
+}
